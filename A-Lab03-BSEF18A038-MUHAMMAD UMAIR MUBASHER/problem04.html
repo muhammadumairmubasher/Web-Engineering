@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Problem 04</title>
+    <style>
+        #header-nav {
+            background-color: black;
+            border-radius: 0;
+            border: 0;
+        }
+        .navbar-brand a{
+            text-decoration: none;
+        }
+        i{
+            margin-right: 10px;
+        }
+        li{
+            color: white;
+        }
+        #con1{
+            text-align: center;
+            width: 42%;
+        }
+        #con1 > p{
+            text-align: center;
+        }
+         #con2{
+            margin-top: 50px;
+            text-align: left;
+        }
+        .row{
+            background: #eeeeee;
+        }
+        .thumbnail{
+            background-color:#2f3640;
+            height: 200px;
+            width :290px;
+            position: relative;
+            right:15px;
+        }
+        .thumbnail>h3{
+            color: white;
+            text-align: center;
+            margin-top: 70px;
+        }
+        .card-body{
+            padding: 20px 20px 20px 20px;
+        }
+        .card{
+            margin: 40px 40px 40px 40px ;
+            background-color:white;
+            border: 1px solid #ececec;
+            border-radius:5px 5px 5px 5px;
+        }
+        time{
+            position: relative;
+            left:  90px;
+        }
+        /*for large devices*/
+        @media (min-width:992px) and (max-width: 1200px){
+            .thumbnail{
+                width:242px;
+            }
+            time{
+                left:  40px;
+            }
+        }
+        /*for large devices*/
+        @media (min-width:768px) and (max-width: 991px){
+            .thumbnail{
+                width:670px;
+            }
+            time{
+                left:  470px;
+            }
+        }
+        @media (min-width:576px) and (max-width: 767px){
+            .thumbnail{
+                width: 105%;
+            }
+            #con1{
+                width: 70%;
+            }
+            time{
+                margin-right: 50px;
+            }
+        }
+        @media (max-width: 577px){
+            .thumbnail{
+                width:107%;
+            }
+            #con1{
+                width: 70%;
+            }
+
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav id="header-nav" class="navbar navbar-default bg-danger">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="problem04.html" class="pull-left visible-md visible-lg">
+                </a>
+            </div>
+            <div class="navbar-brand">
+                <a href="problem04.html" style="color: white "><i class="fa fa-fw fa-camera"></i>Album</a>
+            </div>
+
+            <button type="button" class="navbar-toggle collapsed visible-xs visible-sm visible-md visible-lg" data-toggle="collapse"  data-target="#myNavBar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="myNavBar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden-sm hidden-md hidden-lg "><a href="problem04.html">Home</a></li>
+                <li class="hidden-sm hidden-md hidden-lg "><a href="problem04.html">Next</a></li>
+                <li class="hidden-sm hidden-md hidden-lg "><a href="problem04.html">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div id="con1" class="container">
+    <h1>Album Example</h1>
+    <p>Something short and leading about the collection below-its contents the creator,etc. make it short and sweet, but not too short so folks
+        don't simply skip over it entirely
+    </p>
+    <button type="button" class="btn btn-primary">Main call to action</button>
+    <button type="button" class="btn btn-secondary">Secondary action</button>
+</div>
+<div id="con2" class="container">
+    <div class="row">
+        <div class="card col-md-3">
+            <div class="thumbnail"><h3>Thumbnail</h3></div>
+            <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in
+                    to additional content. This content is a little bit longer</p>
+                <div class="btn-group">
+                    <button class="btn btn-default">View</button>
+                    <button class="btn btn-default">Edit</button>
+                </div>
+                <time>9 mins</time>
+            </div>
+        </div>
+        <div class="card col-md-3">
+            <div class="thumbnail"><h3>Thumbnail</h3></div>
+            <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in
+                    to additional content. This content is a little bit longer</p>
+                <div class="btn-group">
+                    <button class="btn btn-default">View</button>
+                    <button class="btn btn-default">Edit</button>
+                </div>
+                <time>9 mins</time>
+            </div>
+        </div>
+        <div class="card col-md-3">
+            <div class="thumbnail"><h3>Thumbnail</h3></div>
+            <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in
+                    to additional content. This content is a little bit longer</p>
+                <div class="btn-group">
+                    <button class="btn btn-default">View</button>
+                    <button class="btn btn-default">Edit</button>
+                </div>
+                <time>9 mins</time>
+            </div>
+        </div>
+
+    </div>
+</div>
+<br>
+</body>
+</html>

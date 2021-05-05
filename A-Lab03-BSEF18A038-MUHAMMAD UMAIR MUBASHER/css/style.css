@@ -1,0 +1,176 @@
+body {
+    margin:  0;
+    background: #6499cb;
+    font-family: sans-serif;
+
+}
+.container {
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+.div {
+    background: #fff;
+    width: 1100px;
+    border-radius: 10px;
+    position: relative;
+    margin-left:50px;
+    margin-right: 50px;
+}
+.form-content {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 20px;
+    padding: 20px 20px 0px 60px;
+}
+.left-Side {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 100%;
+}
+.left-Side h2 {
+    color: #2271dd;
+}
+.right-side {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+    background: #4835d4;
+}
+.right-side h2 {
+    color: #fff;
+}
+.form-group {
+    display: flex;
+}
+.form-row {
+    position: relative;
+    margin-bottom: 24px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.business {
+    width: 70%;
+    padding: 0 12px 0 50px;
+}
+.employees{
+    width: 60%;
+    padding: 0 50px 0 12px;
+}
+
+.zip {
+    width: 50%;
+    padding: 0 12px 0 60px;
+}
+.place{
+    width: 70%;
+    padding: 0 50px 0 12px;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid transparent;
+    background: transparent;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+select {
+    background: 0 0;
+    position: relative;
+    cursor: pointer;
+}
+.left-Side select {
+    color: #666;
+}
+.right-side select {
+    color: #f2f2f2;
+}
+.right-side input {
+    color: #fff;
+}
+.left-Side input,.left-Side select {
+    border-bottom: 1px solid #ccc;
+}
+.right-side input,.right-side select {
+    border-bottom: 1px solid #ccc;
+}
+.right-side select option {
+    background: #4835d4;
+}
+.form-row-last {
+    padding-left: 60px;
+    margin: 44px 0 10px;
+}
+.right-side .register {
+    background: #fff;
+    border-radius: 25px;
+    width: 150px;
+    border: none;
+    margin: 6px 0 10px 0px;
+    cursor: pointer;
+    color: #333;
+    font-weight: 700;
+    font-size: 15px;
+}
+.right-side .register:hover {
+    background: #cccccc;
+}
+.right-side ::placeholder{
+    color:white;
+}
+.radio-btn{
+    width:5%;
+    float: left
+}
+.text
+{
+    margin-left: 30px ;
+    width:275px;
+    color:  #cccccc
+}
+.text a
+{
+    color: white;
+}
+
+/*	Responsiveness
+	For Tablet View		*/
+@media(min-width: 768px) and (max-width: 991px){
+    .form-group {
+        flex-direction:  column;
+    }
+    .business,.employees,.zip,.place{
+        width: auto;
+        padding: 0 50px 0 50px;
+    }
+}
+
+/* For Mobile View*/
+@media(max-width: 767px){
+    .form-content {
+        flex-direction:  column;
+    }
+    .form-group {
+        flex-direction:  column;
+    }
+    .right-side {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+    .business,.employees,.zip,.place{
+        width: auto;
+        padding: 0 50px 0 50px;
+    }
+}
+
+
+
