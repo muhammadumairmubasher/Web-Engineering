@@ -1,0 +1,28 @@
+.reg{
+    color: #5d149f;
+    text-align:center;
+    font-size: 32px;
+}
+.form{
+    background-color: #ffe7c4;
+    padding: 50px;
+    border-radius: 15px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.welcomeNote{
+    background-color: orange;
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 32px;
+    text-align: center;
+}
+.btn-danger,.btn-success{
+    margin-left: 300px;
+    margin-top: 10px;
+}
+.err{
+    color: red;
+}

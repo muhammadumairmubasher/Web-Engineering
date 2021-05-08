@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="A-LAB11-BSEF18A038-MUHAMMAD-UMAIR-MUBASHER:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>A-LAB11-BSEF18A038-MUHAMMAD-UMAIR-MUBASHER</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="A-LAB11-BSEF18A038-MUHAMMAD-UMAIR-MUBASHER-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="A-LAB11-BSEF18A038-MUHAMMAD-UMAIR-MUBASHER:war exploded" />
+    </root>
+  </artifact>
+</component>
