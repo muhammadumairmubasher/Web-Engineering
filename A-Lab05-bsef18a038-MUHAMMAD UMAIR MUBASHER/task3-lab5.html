@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Problem 03</title>
+    <script>
+        function appendItem() {
+            const list=document.getElementById("myList")
+            const listItem=document.createElement("li");
+            list.appendChild(listItem);
+            const itemName=document.createTextNode("Water");
+            listItem.appendChild(itemName);
+        }
+    </script>
+</head>
+<body>
+<ul id="myList">
+    <li>Cofee</li>
+    <li>Tea</li>
+</ul>
+<p>Click the button to append an item to end of the list.</p>
+<button onclick="appendItem()">Try it</button>
+</body>
+</html>

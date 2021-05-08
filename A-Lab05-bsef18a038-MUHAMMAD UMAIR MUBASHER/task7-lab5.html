@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>problem7</title>
+    <script language="JavaScript">
+        function showInput() {
+            document.getElementById('display').innerHTML =
+                document.getElementById("user_input").value;
+
+            document.getElementById('show').innerHTML =
+                document.getElementById("userInput").value;
+            document.getElementById('output').innerHTML =
+                document.getElementById("submit").value;
+        }
+    </script>
+
+</head>
+<body>
+
+<form>
+    <label><b>First name</b></label>
+    <input type="text" name="First name" id="user_input"><br>
+    <label><b>Last name</b></label>
+    <input type="text" name="last name" id="userInput">
+</form>
+
+<input type="submit" value="submit" id="submit"><br/>
+<label>Click the"Get Values" button to return the each value in the form </label>
+<p><span id='display'></span></p>
+<p><span id='show'></span></p>
+<p><span id='output'></span></p>
+<input type="submit" onclick="showInput();" value="Get values" >
+</body>
+</html>

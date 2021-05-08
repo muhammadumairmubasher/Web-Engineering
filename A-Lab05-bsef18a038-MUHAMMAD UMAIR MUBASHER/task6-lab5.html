@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Problem 06</title>
+</head>
+<body>
+<p>Click the button to make a new BUTTON element with text.</p>
+<button onclick="createButton()">Create Button</button>
+<script>
+    function createButton() {
+        let newBtn = document.createElement("Button");
+        let text = document.createTextNode("Button");
+        newBtn.appendChild(text);
+        document.body.appendChild(newBtn);
+        newBtn.onclick=function (){
+            createButton();
+        };
+    }
+</script>
+</body>
+</html>

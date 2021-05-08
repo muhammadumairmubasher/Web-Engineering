@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>problem1</title>
+</head>
+<body>
+<script>
+    function p1(){
+        const var1=document.getElementById("myDiv1");
+        var1.style.backgroundColor="#"+Math.floor(Math.random()*16777215).toString(16);
+    }
+    function p2(){
+        const var1=document.getElementById("myDiv2");
+        var1.style.backgroundColor="#"+Math.floor(Math.random()*16777215).toString(16);
+    }
+</script>
+<br>
+<div id="myDiv1">
+    <button id="p1" onclick="p1()">change first box</button>
+    <br/><br/><br/><br/><br/><br/><br/><br/>
+</div>
+<br>
+<div id="myDiv2">
+    <button id="p2" onclick="p2()">change second box</button>
+    <br/><br/><br/><br/><br/><br/><br/><br/>
+</div>
+</body>
+</html>
