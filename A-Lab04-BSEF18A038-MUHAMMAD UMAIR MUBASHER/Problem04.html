@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=utf-8 />
+    <title></title>
+    <script>
+            function getMultiplication(n1=document.getElementById("n1").value,n2=document.getElementById("n2").value){
+                const mul=n1*n2;
+                const  h3 = document.createElement("h3");
+                h3.innerHTML =''+mul;
+                document.body.appendChild(h3);
+                return mul;
+        };
+
+        function getDivision(inputD1=document.getElementById("n1").value,inputD2=document.getElementById("n2").value){
+            const div=inputD1/inputD2;
+            const h3 = document.createElement("h3");
+            h3.innerHTML = ""+div;
+            document.body.appendChild(h3);
+            return div;
+        };
+    </script>
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <td><label>1nd Number: </label></td>
+            <td><input type="text" id="n1" /></td>
+        </tr>
+        <tr>
+            <td><label>2st Number :</label></td>
+            <td><input type="text" id="n2" /></td>
+        </tr>
+        <tr>
+            <td><input type="button" onClick="getMultiplication()" Value="Multiply"/></td>
+            <td><input type="button" onClick="getDivision()" Value="Divide" /></td>
+        </tr>
+    </table>
+    <p>The Result Is:</p>
+</form>
+</body>
+</html>

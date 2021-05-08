@@ -1,0 +1,141 @@
+body{
+    font-size: 16px;
+    margin: 0px;
+    border: 0px;
+    line-height: 1.8;
+    font-weight: 400;
+}
+#head-bar{
+    background-color:#4ac6d6;
+    height: 40px;
+}
+#head-bar-content{
+    color: white;
+}
+.head-bar-top-right-content{
+    margin-top: 10px;
+    word-spacing: 10px;
+    position: relative;
+}
+.head-bar-top-right-content a{
+    color: white;
+    position: relative;
+}
+.head-bar-top-left-content{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+}
+#nav-bar{
+    background-color: white;
+    margin-bottom: 0px;
+}
+#nav-bar-content{
+    height: 100px;
+}
+#nav-bar-button{
+    background-color:#4ac6d6;
+    color: white;
+}
+.nav li{
+    margin-top: 20px;
+    align-content: center;
+    position: relative;
+}
+.parallax-text h1,#h1{
+    color:  #4ac6d6;
+    font-family: "Arima Madurai", sans-serif;
+    font-size: 28px;
+    text-align:center;
+    font-weight: bold;
+}
+.parallax-text h2{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.3em;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#h2{
+    color: #3c3c3c;
+    text-align: center;
+    font-weight: 600;
+    font-size:45px;
+    line-height: 1.3em;
+}
+.parallax{
+    background: url("../img/background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.parallax-inner{
+    margin-top: 275px;
+    text-align: center;
+}
+#btn{
+    margin: 50px 50px 50px 50px;
+}
+#btn button{
+    width: 150px;
+    height: 40px;
+    margin: 10px 20px 10px 20px;
+}
+.heading{
+    margin-bottom: 50px;
+}
+.row{
+    align-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.row i{
+    font-size: 80px;
+    color: white;
+    box-sizing: inherit;
+    margin:25px;
+    position: relative;
+}
+.row .col-12, co-sm-6{
+    border: 20px solid white;
+    padding: 40px 20px 40px 20px;
+}
+#block1{
+    background-color: #4fc99a;
+}
+#block2{
+    background-color: #4ac6d6;
+}
+#block3{
+    background-color: #f48fb1;
+}
+#block4{
+    background-color: #ffc035;
+}
+#block-part{
+padding: 100px;
+}
+
+@media (max-width:768px) {
+    .parallax-inner {
+        margin-top: 150px;
+    }
+    .parallax-text h2,#h2{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        font-size: 28px;
+    }
+    h1,#h1{
+        font-size: 24px;
+    }
+    #btn{
+        margin: 10px;
+    }
+}

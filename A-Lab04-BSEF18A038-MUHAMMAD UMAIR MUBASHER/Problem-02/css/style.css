@@ -1,0 +1,133 @@
+body {
+    margin: 0px;
+    font-size: 16px;
+    font-family: -apple-system,sans-serif;
+}
+#head-bar-content{
+    display: flex;
+}
+.head-bar-top-left-content{
+    margin: 15px;
+}
+.head-bar-top-right-content{
+    margin: 15px;
+}
+.head-bar-top-right-content a{
+    text-decoration: none;
+}
+.navbar-brand{
+    margin-left: 18%;
+    margin-right: 18%;
+}
+.navbar-brand a{
+    color: #22aaa1;
+    border-top: 5px solid #22aaa1;
+    border-bottom: 5px solid #22aaa1;
+}
+#nav-bar{
+    background-color: white;
+}
+
+#block-part{
+    margin-top:100px;
+    text-align: center;
+}
+.row .col-12, col-sm-6{
+    border: 1px solid black;
+    padding: 40px 20px 40px 20px;
+}
+.row i{
+    font-size: 80px;
+    box-sizing: inherit;
+    margin:5px;
+    position: relative;
+}
+#block1{
+    margin: 40px;
+}
+#block2{
+    margin: 40px;
+}
+#block3{
+    margin: 40px;
+}
+#block4{
+    margin: 40px;
+}
+
+
+#con2{
+    margin-top: 50px;
+    text-align: left;
+}
+.thumbnail{
+    height: 200px;
+    width :290px;
+    position: relative;
+    right:15px;
+    border:0px;
+    padding: 0px;
+    margin: 0px;
+}
+.card-body{
+    padding: 0px 20px 20px 20px;
+}
+
+.card-body button{
+    border: none;
+    background: transparent;
+    font-family: "Arial Black", sans-serif;
+    font-size: 16px;
+    padding: 0px;
+    border-radius:0px;
+    border-bottom: 5px solid #22aaa1;
+    margin: 10px;
+}
+.card{
+    margin: 40px 40px 40px 40px ;
+    background-color:white;
+    border: 1px solid #ececec;
+    border-radius:5px 5px 5px 5px;
+}
+.carousel-btn{
+    margin-top:50px;
+    font-family: 'Arial Black',sans-serif;
+    color: white;
+    background:transparent;
+    padding: 0px;
+    border-radius:0px;
+    border-bottom: 5px solid #22aaa1;
+}
+@media (min-width:992px) and (max-width: 1200px){
+    .thumbnail{
+        width: 242px;
+    }
+    .thumbnail > img{
+        height: 100px;
+    }
+}
+/*for large devices*/
+@media (min-width:768px) and (max-width: 991px){
+    .thumbnail{
+        height: auto;
+        width:670px;
+    }
+}
+@media (min-width:576px) and (max-width: 767px) {
+    .thumbnail {
+        height: auto;
+        width: 105%;
+    }
+    #con1 {
+        width: 70%;
+    }
+}
+@media (max-width: 577px){
+    .thumbnail{
+        width:107%;
+    }
+    #con1{
+        width: 70%;
+    }
+
+}

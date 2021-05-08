@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=utf-8 />
+    <title>Problem03</title>
+    <script>
+        function cToF(celsius=document.getElementById("temp").value) {
+            const cToFah =celsius * 9 / 5 + 32;
+            const  h3 = document.createElement("h3");
+            h3.innerHTML =''+cToFah;
+            document.getElementById("res").append(h3);
+        }
+
+        function fToC(fahrenheit=document.getElementById("temp").value) {
+            const fToCel = (fahrenheit - 32) * 5 / 9;
+            const  h3 = document.createElement("h3");
+            h3.innerHTML =''+fToCel;
+            document.getElementById("res").append(h3);
+        }
+    </script>
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <td><label style="color: red;">Enter Temperature in either Celcius on Farenheit</label></td>
+            <td><input type="text" id="temp" /></td>
+        </tr>
+        <tr>
+            <td><label>Converted Temperature</label></td>
+            <td id="res"></td>
+        </tr>
+        <tr>
+            <td><input type="button" onClick="cToF()" Value="Converted C to F"/></td>
+            <td><input type="button" onClick="fToC()" Value="Converted F to C" /></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
